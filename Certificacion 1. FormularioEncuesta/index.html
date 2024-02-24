@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css"> 
+    </head
+    <body>
+      <h1 id="title">
+        Este es mi primer formulario de encuesta
+        </h1>
+        <p id="description">
+          Con esta encuenta sabremos lo que opinas  
+          </p>
+        <form id="survey-form" method="POST">
+          <label id="name-label"> Introduzca el nombre<input id="name" type="text" required placeholder="Ponga el nombre"></label>
+          <label id="email-label" > Ingrese el email:<input id="email" type="email" required placeholder="Ponga email"></label>
+          <label id="number-label"> Indique su edad<input id="number" type="number" min="1" max="10" placeholder="ponga el numero"></label>
+          <select id="dropdown">
+            <option>Español</option>
+            <option>Extranjero</option>
+           </select>
+<input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label><br>
+
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Femenino</label><br>
+        <label>Idiomas:
+        <input type="checkbox" id="check"  value="Ingles"> Ingles</label>
+        <label><input type="checkbox" id="check"  value="Español">
+        Español</label>
+        <label><input type="checkbox" id="check"  value="Frances"> Frances</label>
+        <label>Introduce tus comentarios
+        <textarea>
+
+          </textarea></label>
+        <input type="submit" id="submit">
+        </form>
+      </body>
+</html>
