@@ -18,31 +18,3 @@ console.log(salario);
 salario *= 5;
 
 console.log(salario);
-for (let for (const key in object) {
-    if (Object.hasOwnProperty.call(object, key)) {
-        const element = object[key];
-        index
-    }
-} = 0; for (const key in object) {
-    if (Object.hasOwnProperty.call(object, key)) {
-        const element = object[key];
-        index
-    }
-} < array.length; for (const key in object) {
-    if (Object.hasOwnProperty.call(object, key)) {
-        const element = object[key];
-        index
-    }
-}++) {
-    const element = array[for (const key in object) {
-        if (Object.hasOwnProperty.call(object, key)) {
-            const element = object[key];
-            index
-        }
-    }];
-    
-}
-
-if (complemento) {
-    
-}
