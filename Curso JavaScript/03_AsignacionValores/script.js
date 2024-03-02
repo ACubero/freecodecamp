@@ -15,6 +15,13 @@ console.log(producto);
 var salario = 45;
 console.log(salario);
 
-salario *= 5;
+salario *= 5; // salario = salario * 45
+
+console.log(salario);
+
+var salario = 45000;
+console.log(salario);
+
+salario /= 2; // salario = salario / 2
 
 console.log(salario);
