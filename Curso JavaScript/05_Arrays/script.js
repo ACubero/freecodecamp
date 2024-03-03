@@ -31,3 +31,35 @@ console.log(miArreglo.length);
 // Acceder a arrays anidados
 var listaDeProductos = [["Camisas",5.67,"S134"],["Celular",250,"S356"],["Zapatos",23,"S789"]];
 console.log(listaDeProductos[0][0]);
+console.log(listaDeProductos[0][1]);
+console.log(listaDeProductos[0][2]);
+
+// .push(), agregar elementos a un array en la última posición
+var estaciones = ["Invierno","Otoño","Primavera"];
+console.log(estaciones);
+estaciones.push("Verano");
+console.log(estaciones);
+
+// .pop(), eliminar el último elemento de un array
+var estaciones = ["Invierno","Otoño","Primavera","Verano"];
+var estacionEliminada;
+console.log(estaciones);
+// pop lo elimina y lo retorna
+estacionEliminada = estaciones.pop();
+console.log(estaciones);
+console.log(estacionEliminada);
+
+// .shift(), eliminar el primer elemento de un array
+var estaciones = ["Invierno","Otoño","Primavera","Verano"];
+var estacionEliminada;
+console.log(estaciones);
+// shift lo elimina y lo retorna
+estacionEliminada = estaciones.shift();
+console.log(estaciones);
+console.log(estacionEliminada);
+
+// .unshift(), agregar elemento al principio del array
+var estaciones = ["Otoño","Primavera","Verano"];
+console.log(estaciones);
+estaciones.unshift("Invierno");
+console.log(estaciones);
